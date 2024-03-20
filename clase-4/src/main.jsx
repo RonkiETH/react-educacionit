@@ -8,7 +8,7 @@ import { TercerComponente } from "./TercerComponente";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <PrimerComponente />
-    <SegundoComponente />
+    <SegundoComponente titulo1="Clase 4 de React" />
     <TercerComponente />
   </React.StrictMode>
 );

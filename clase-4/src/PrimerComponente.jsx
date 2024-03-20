@@ -14,9 +14,9 @@ export const PrimerComponente = () => {
       <h4>Variable de tipo Number: <span>{number}</span></h4>
       <h4>Variable de tipo Boolean: <span>{boolean}</span></h4>
       <h4>Variable de tipo Array: <span>{array}</span></h4>
-      <h4>Variable de tipo Función: <span>{funcion}</span></h4>
-      <h4>Variable de tipo Objeto: <span>{objeto}</span></h4>
-      <h4>Variable de tipo Fecha: <span>{fecha}</span></h4>
+      <h4>Variable de tipo Función: <span>{funcion()}</span></h4>
+      <h4>Variable de tipo Objeto: <span>{JSON.stringify(objeto)}</span></h4>
+      <h4>Variable de tipo Fecha: <span>{JSON.stringify(fecha)}</span></h4>
     </>
   )
 }
